@@ -14,7 +14,7 @@
   "scripts": {
     "start": "tsc -w",
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm install && npm run build"
   },
   "keywords": [],
   "author": "Tobias Trobisch",
