@@ -4,7 +4,7 @@
   "description": "semantic-release plugin to get release notifications on mattermost via webhooks",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ttrobisch/semantic-release-mattermost.git"
+    "url": "https://github.com/icoidefix/semantic-release-mattermost.git"
   },
   "main": "dist/index.js",
   "files": [
@@ -13,7 +13,8 @@
   ],
   "scripts": {
     "start": "tsc -w",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "keywords": [],
   "author": "Tobias Trobisch",
