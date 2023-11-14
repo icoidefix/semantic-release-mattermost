@@ -1,4 +1,5 @@
 export type Config = {
-    webhook?: string;
-    username?: string;
-}
+  asAttachment: boolean;
+  webhook?: string;
+  username?: string;
+};
